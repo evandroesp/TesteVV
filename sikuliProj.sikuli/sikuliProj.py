@@ -20,8 +20,6 @@ def install_Lamp():
     click("desmarcalamp.png")
     sleep(3)
     click("finalizalamp.png")
-    start_Lamp()
-    conf_sql()
 
 def start_Lamp():
     openApp("qterminal")
